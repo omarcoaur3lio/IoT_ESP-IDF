@@ -18,12 +18,14 @@ Este repostório é destinado ao armazenamento dos arquivos de projetos e exerc�
 <br />
 
 Durante o curso foram abordados os conceitos de:
-- [ ] Tasks
-- [ ] Sistemas single e multi-thread
-- [ ] Requisições HTTP com FreeRTOS
+- [x] Tasks
+- [x] Sistemas single e multi-thread
+- [x] Requisições HTTP com FreeRTOS
+- [ ] Compartilhamento de informações através de filas
 
 ## :weight_lifting: Exercícios
 
 - [Criando Tasks](./tasks)
 - [Conexão HTTPS](./socket_https)
 - [Conexão HTTPS com FreeRTOS](./https_FreeRTOS)
+- [Filas (Queue)](./queue)

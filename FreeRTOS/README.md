@@ -18,10 +18,10 @@ This repository aims to store the files of projects and exercises developed duri
 <br />
 
 During the course, the concepts of: 
-- [ ] Tasks
-- [ ] Single and multi-thread systems
-- [ ] HTTP requests with FreeRTOS
-
+- [x] Tasks
+- [x] Single and multi-thread systems
+- [x] HTTP requests with FreeRTOS
+- [ ] Information sharing across queues 
 
 ## :weight_lifting: Exercícios
 
@@ -29,3 +29,4 @@ During the course, the concepts of:
 - [Task creation](./tasks)
 - [HTTPS connection](./socket_https)
 - [HTTPS connection with FreeRTOS](./https_FreeRTOS)
+- [Queues](./queue)
