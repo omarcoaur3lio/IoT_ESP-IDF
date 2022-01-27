@@ -32,8 +32,8 @@ void vTask2(void *pvParameters);
 
 portMUX_TYPE myMutex = portMUX_INITIALIZER_UNLOCKED;
 
-const char *pcTextForTask1 = "Task 1 está rodando\n";
-const char *pcTextForTask2 = "Task 2 está rodando\n";
+const char *pcTextForTask1 = "Task 1 is runing\n";
+const char *pcTextForTask2 = "Task 2 is runing\n";
 
 QueueHandle_t xQueue; // Handle para a Fila
 
@@ -84,13 +84,8 @@ void vPrintTwoStrings(const char *pcString, const char *pcString1) {
 }
 
 void vTask1(void *pvParameters) {
-    
     vPrintString("Task 1 Init...");
 
-    // Verifica quantos bytes estão livres. NULL refere-se a própria task (pode ser alterado pelo handle de outra task)
-    UBaseType_t uxHighWaterMark;
-    uxHighWaterMark = uxTaskGetStackHighWaterMark(NULL);
-    
     BaseType_t xStatus;
     int32_t lValueToSend;
     
@@ -113,7 +108,7 @@ void vTask1(void *pvParameters) {
                     lValueToSend = 1;
                     xStatus = xQueueSendToBack(xQueue, &lValueToSend, portMAX_DELAY); // portMAX_DELAY: Aguardará "infinitamente" até poder alocar o valor na fila
                     if (xStatus != pdPASS) {
-                        vPrintString("A fila está cheia. \r\n");
+                        vPrintString("The queue is full. \r\n");
                     }
                 }
             } else {
@@ -122,9 +117,6 @@ void vTask1(void *pvParameters) {
 
             http.end();
         }
-        uxHighWaterMark = uxTaskGetStackHighWaterMark(NULL);
-        vPrintStringAndNumber("Size 2: ", uxHighWaterMark);
-
         vTaskDelay(61000 / portTICK_PERIOD_MS);
     }
 }
