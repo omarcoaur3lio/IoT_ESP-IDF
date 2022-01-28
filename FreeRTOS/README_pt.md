@@ -21,7 +21,8 @@ Durante o curso foram abordados os conceitos de:
 - [x] Tasks
 - [x] Sistemas single e multi-thread
 - [x] Requisições HTTP com FreeRTOS
-- [ ] Compartilhamento de informações através de filas
+- [x] Compartilhamento de informações através de filas
+- [x] Tratamento de arquivos JSON
 
 ## :weight_lifting: Exercícios
 

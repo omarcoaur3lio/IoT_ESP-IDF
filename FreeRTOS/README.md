@@ -21,8 +21,8 @@ During the course, the concepts of:
 - [x] Tasks
 - [x] Single and multi-thread systems
 - [x] HTTP requests with FreeRTOS
-- [ ] Information sharing across queues 
-
+- [x] Information sharing across queues 
+- [x] JSON file parse
 ## :weight_lifting: Exercícios
 
 
@@ -30,3 +30,4 @@ During the course, the concepts of:
 - [HTTPS connection](./socket_https)
 - [HTTPS connection with FreeRTOS](./https_FreeRTOS)
 - [Queues](./queue)
+- [JSON Parse](./JSON)
