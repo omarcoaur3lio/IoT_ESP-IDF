@@ -23,6 +23,7 @@ During the course, the concepts of:
 - [x] HTTP requests with FreeRTOS
 - [x] Information sharing across queues 
 - [x] JSON file parse
+- [ ] Presentation of information on OLED display 
 ## :weight_lifting: Exercícios
 
 
@@ -31,3 +32,4 @@ During the course, the concepts of:
 - [HTTPS connection with FreeRTOS](./https_FreeRTOS)
 - [Queues](./queue)
 - [JSON Parse](./JSON)
+- [OLED Display](./display_OLED)

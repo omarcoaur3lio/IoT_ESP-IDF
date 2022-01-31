@@ -23,6 +23,7 @@ Durante o curso foram abordados os conceitos de:
 - [x] Requisições HTTP com FreeRTOS
 - [x] Compartilhamento de informações através de filas
 - [x] Tratamento de arquivos JSON
+- [ ] Apresentação de informações em display OLED
 
 ## :weight_lifting: Exercícios
 
@@ -30,3 +31,4 @@ Durante o curso foram abordados os conceitos de:
 - [Conexão HTTPS](./socket_https)
 - [Conexão HTTPS com FreeRTOS](./https_FreeRTOS)
 - [Filas (Queue)](./queue)
+- [Display OLED](./display_OLED)
