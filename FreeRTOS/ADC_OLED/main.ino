@@ -135,7 +135,7 @@ void vTask1(void *pvParameters) {
                     if (DEBUG) {
                         vPrintString(payload.c_str());
                     }
-                    if (vJsonConverter(payload, &value) != -1) {
+                    if (vJsonConverter(payload, &value) == true) {
                         xStatus = xQueueSendToBack(xQueue, &value, portMAX_DELAY);
                         if (xStatus != pdPASS) {
                             if (DEBUG) {
@@ -210,6 +210,7 @@ bool vJsonConverter(String payload, float *result) {
     cJSON *json = cJSON_Parse(payload.c_str());
 
     if (json != NULL) {
+        /*
         const cJSON *name = NULL;
         name = cJSON_GetObjectItem(json, "name");
         if ((name->valuestring != NULL)) {
@@ -217,6 +218,7 @@ bool vJsonConverter(String payload, float *result) {
                 vPrintTwoStrings("Variable: ", name->valuestring);
             }
         }
+        */
 
         const cJSON *lastValue = NULL;
         lastValue = cJSON_GetObjectItem(json, "last_value");
