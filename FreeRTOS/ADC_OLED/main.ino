@@ -182,7 +182,7 @@ void vTask3(void *pvParameters) {
     }
 }
 
-void vTask3(void *pvParameters) {
+void vTask4(void *pvParameters) {
     if (DEBUG) {
         vPrintString("Task4 Init...");
     }
