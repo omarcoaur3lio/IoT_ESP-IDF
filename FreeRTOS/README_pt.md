@@ -25,6 +25,7 @@ Durante o curso foram abordados os conceitos de:
 - [x] Tratamento de arquivos JSON
 - [x] Apresentação de informações em display OLED
 - [x] Leitura de canal analógico
+- [x] Interrupções (ISR) com FreeRTOS
 
 ## :weight_lifting: Exercícios
 
@@ -34,3 +35,4 @@ Durante o curso foram abordados os conceitos de:
 - [Filas (Queue)](./queue)
 - [Display OLED](./display_OLED)
 - [Leitura de canal analógico](./ADC_OLED)
+- [ISR](./FreeRTOS_ISR)
