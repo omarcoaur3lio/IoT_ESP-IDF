@@ -23,7 +23,8 @@ Durante o curso foram abordados os conceitos de:
 - [x] Requisições HTTP com FreeRTOS
 - [x] Compartilhamento de informações através de filas
 - [x] Tratamento de arquivos JSON
-- [ ] Apresentação de informações em display OLED
+- [x] Apresentação de informações em display OLED
+- [x] Leitura de canal analógico
 
 ## :weight_lifting: Exercícios
 
@@ -32,3 +33,4 @@ Durante o curso foram abordados os conceitos de:
 - [Conexão HTTPS com FreeRTOS](./https_FreeRTOS)
 - [Filas (Queue)](./queue)
 - [Display OLED](./display_OLED)
+- [Leitura de canal analógico](./ADC_OLED)

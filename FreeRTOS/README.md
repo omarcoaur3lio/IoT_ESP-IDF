@@ -24,8 +24,8 @@ During the course, the concepts of:
 - [x] Information sharing across queues 
 - [x] JSON file parse
 - [ ] Presentation of information on OLED display 
+- [x] Analog channel reading 
 ## :weight_lifting: Exercícios
-
 
 - [Task creation](./tasks)
 - [HTTPS connection](./socket_https)
@@ -33,3 +33,4 @@ During the course, the concepts of:
 - [Queues](./queue)
 - [JSON Parse](./JSON)
 - [OLED Display](./display_OLED)
+- [ADC Read](./ADC_OLED)
