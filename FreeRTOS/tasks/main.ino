@@ -1,9 +1,12 @@
-#include <freertos/FreeRTOS.h>
-#include <freertos/task.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
+
+void prvSetupHardware( void );
+void vPrintString( const char *pcString);
 void vTask1(void *pvParameters);
 void vTask2(void *pvParameters);
 

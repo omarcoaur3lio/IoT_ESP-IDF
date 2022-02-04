@@ -26,6 +26,7 @@ During the course, the concepts of:
 - [ ] Presentation of information on OLED display 
 - [x] Analog channel reading 
 - [x] Interrupt service routine (ISR)
+- [ ] Use of semaphores (Mutex) 
 ## :weight_lifting: Exercícios
 
 - [Task creation](./tasks)
@@ -36,3 +37,4 @@ During the course, the concepts of:
 - [OLED Display](./display_OLED)
 - [ADC Read](./ADC_OLED)
 - [ISR](./FreeRTOS_ISR)
+- [Mutex](./Mutex)

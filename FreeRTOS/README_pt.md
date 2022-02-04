@@ -26,6 +26,7 @@ Durante o curso foram abordados os conceitos de:
 - [x] Apresentação de informações em display OLED
 - [x] Leitura de canal analógico
 - [x] Interrupções (ISR) com FreeRTOS
+- [ ] Uso de semáforos (Mutex)
 
 ## :weight_lifting: Exercícios
 
@@ -36,3 +37,4 @@ Durante o curso foram abordados os conceitos de:
 - [Display OLED](./display_OLED)
 - [Leitura de canal analógico](./ADC_OLED)
 - [ISR](./FreeRTOS_ISR)
+- [Mutex](./Mutex)
